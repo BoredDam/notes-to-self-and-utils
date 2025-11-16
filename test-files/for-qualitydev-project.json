@@ -1,0 +1,124 @@
+[
+  {
+    "question": "What's the asymptotic time complexity of bubble sort in the worst case?",
+    "answer": "Bubble sort has time complexity O(n^2) in the worst case, because each of the n elements is compared with the others in nested loops.",
+    "tip": "Count the nested loops and how many comparisons they do.",
+    "tags": [
+      "algorithms",
+      "sorting",
+      "bubble sort",
+      "time complexity"
+    ],
+    "id": 0
+  },
+  {
+    "question": "Is bubble sort a stable sorting algorithm?",
+    "answer": "Yes, bubble sort is stable because it only swaps adjacent elements that are out of order and does not change the relative order of equal keys.",
+    "tip": "Think about what happens to equal elements during adjacent swaps.",
+    "tags": [
+      "algorithms",
+      "sorting",
+      "bubble sort",
+      "stability"
+    ],
+    "id": 1
+  },
+  {
+    "question": "What's the time complexity of merge sort in the worst case?",
+    "answer": "Merge sort has time complexity O(n log n) in the worst, average, and best case.",
+    "tip": "Recall the divide-and-conquer tree: depth is log n, each level costs O(n).",
+    "tags": [
+      "algorithms",
+      "sorting",
+      "merge sort",
+      "time complexity"
+    ],
+    "id": 2
+  },
+  {
+    "question": "What's the space complexity of merge sort when implemented with auxiliary arrays?",
+    "answer": "Merge sort typically requires O(n) extra space for the temporary arrays used during merging.",
+    "tip": "Think about how many extra elements you store during the merge step.",
+    "tags": [
+      "algorithms",
+      "sorting",
+      "merge sort",
+      "space complexity"
+    ],
+    "id": 3
+  },
+  {
+    "question": "What is the max-heap property?",
+    "answer": "In a max-heap, the key stored in every node is greater than or equal to the keys in its children.",
+    "tip": "Imagine the root always containing the maximum element.",
+    "tags": [
+      "algorithms",
+      "heap",
+      "priority queue",
+      "heap property"
+    ],
+    "id": 4
+  },
+  {
+    "question": "What's the time complexity of inserting an element into a binary heap with n elements?",
+    "answer": "Insertion into a binary heap takes O(log n) time in the worst case.",
+    "tip": "Consider the height of the heap as a complete binary tree.",
+    "tags": [
+      "algorithms",
+      "heap",
+      "priority queue",
+      "time complexity"
+    ],
+    "id": 5
+  },
+  {
+    "question": "What's the overall time complexity of heapsort?",
+    "answer": "Heapsort runs in O(n log n) time in the worst case.",
+    "tip": "Building the heap is O(n), and each of the n extractions costs O(log n).",
+    "tags": [
+      "algorithms",
+      "sorting",
+      "heapsort",
+      "time complexity"
+    ],
+    "id": 6
+  },
+  {
+    "question": "Why is the height of a red-black tree O(log n)?",
+    "answer": "Because the red-black properties guarantee that no path from the root to a leaf is more than twice as long as any other, bounding the height to O(log n).",
+    "tip": "Think about black-height and how many red nodes can appear in a path.",
+    "tags": [
+      "algorithms",
+      "red-black tree",
+      "balanced tree",
+      "height"
+    ],
+    "id": 7
+  },
+  {
+    "question": "What's the time complexity of search, insert, and delete in a red-black tree?",
+    "answer": "Search, insert, and delete all run in O(log n) time in a red-black tree.",
+    "tip": "The height is O(log n), and all these operations are proportional to the height.",
+    "tags": [
+      "algorithms",
+      "red-black tree",
+      "search",
+      "insert",
+      "delete",
+      "time complexity"
+    ],
+    "id": 8
+  },
+  {
+    "question": "What's a key difference between dynamic programming and greedy algorithms for optimization problems?",
+    "answer": "Dynamic programming explores many subproblems and stores their optimal solutions, while greedy algorithms make locally optimal choices without revisiting them.",
+    "tip": "Ask yourself: do I need to remember and reuse solutions to subproblems?",
+    "tags": [
+      "algorithms",
+      "optimization problems",
+      "dynamic programming",
+      "greedy algorithms"
+    ],
+    "id": 9
+  }
+]
