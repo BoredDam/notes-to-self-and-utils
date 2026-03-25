@@ -1,17 +1,5 @@
 [
   {
-    "question": "What's the asymptotic time complexity of bubble sort in the worst case?",
-    "answer": "Bubble sort has time complexity O(n^2) in the worst case, because each of the n elements is compared with the others in nested loops.",
-    "tip": "Count the nested loops and how many comparisons they do.",
-    "tags": [
-      "algorithms",
-      "sorting",
-      "bubble sort",
-      "time complexity"
-    ],
-    "id": 0
-  },
-  {
     "question": "Is bubble sort a stable sorting algorithm?",
     "answer": "Yes, bubble sort is stable because it only swaps adjacent elements that are out of order and does not change the relative order of equal keys.",
     "tip": "Think about what happens to equal elements during adjacent swaps.",
